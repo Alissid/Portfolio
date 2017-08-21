@@ -1,0 +1,140 @@
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+[class*="zocial-"]:before {
+  color: black;
+  display: inline-block;
+  font-family: "zocial", sans-serif;
+  text-shadow: 3px 3px 3px #aaa;
+  width: 2em;
+}
+
+#social a {
+  margin: 0 1em 0 0;
+}
+
+div#social a:last-of-type {
+  margin: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: #676858;
+  font-weight: 300;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-muted {
+  color: #bcbbbb;
+}
+
+.text-thin {
+  font-weight: 100;
+}
+
+.title-super {
+  font-size: 60px;
+}
+
+.title-logo {
+  margin-top: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.img-responsive:hover{
+	 cursor: pointer;
+	}
+
+header {
+  margin-top: 30px;
+}
+
+.header_line {
+  border-width: 5px;
+}
+
+header:hover h1 {
+  color: #3d85c6;
+}
+
+header:hover p {
+  color: orange;
+}
+
+section {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #eee;
+  margin: 0em 0 1em 0;
+  padding: 1em 0 1em 0em;
+}
+
+footer {
+  text-align: center;
+  margin: 0 0 1em 0;
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  display: block;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+img#header_logo {
+  fill: #666;
+  height: 6vw;
+  margin: 0 auto 0.5em auto;
+  width: 6vw;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.caption {
+  padding: 1em;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+h1 {
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+}
+
+header, footer, section, div {
+  box-sizing: border-box;
+}
+
+.header_line {
+  width: 100%;
+}
+
+.recipe {
+  padding: 1em;
+}
+
+.row {
+  margin: auto;
+}
